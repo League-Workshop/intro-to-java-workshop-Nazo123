@@ -15,7 +15,7 @@ public class Spiral {
 		for(int i=0;i<76;i++) {
 			bob.setRandomPenColor();
 			bob.setPenWidth(i);
-			bob.move(5*1);
+			bob.move(5*i);
 			bob.turn(360/7);
 		}
 	
