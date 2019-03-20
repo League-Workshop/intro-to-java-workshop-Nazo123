@@ -20,7 +20,8 @@ String vrb = JOptionPane.showInputDialog(null, "Type a verb");
 		// Get the user to enter a place
 String plc = JOptionPane.showInputDialog(null, "Type a place");
 
-JOptionPane.showMessageDialog(null, "Piranhas are more "+ad+" during the day, so cross the river at \nnight. Piranhas are attracted to fresh "+liq+" and will most \nlikely take a bite out of your "+part" if you ");
+JOptionPane.showMessageDialog(null, "Piranhas are more "+ad+" during the day, so cross the river at \n"
+		+ "night. Piranhas are attracted to fresh "+liq+" and will most \nlikely take a bite out of your "+part+" if you "+vrb+". Whatever");
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
 		// night. Piranhas are attracted to fresh [type of liquid] and will most
