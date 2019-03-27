@@ -28,7 +28,7 @@ public class QuizGame {
 	if (ans3.equals("121")) {
 		 score ++;
 	}
-	System.out.println(""+score);
+	System.out.println(score);
 	}
 	
 		// 4.  if the user's answer is correct

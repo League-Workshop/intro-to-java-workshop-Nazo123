@@ -1,5 +1,6 @@
 package section4;
 
+import java.net.URI;
 import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
@@ -62,6 +63,7 @@ public class DragonFight {
 			if (dragonHealth <= 0) {
 				ImageIcon dead = new ImageIcon("src/section4/DragonDead.png");
 				JOptionPane.showMessageDialog(null, "U killed him yay", "Dragon Fighter", 0, dead);
+				treasureFound();
 				
 				
 			}
@@ -79,4 +81,14 @@ public class DragonFight {
 		}
 
 	}
+	static void treasureFound() {
+		try {
+			URI uri = new URI("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+			java.awt.Desktop.getDesktop().browse(uri);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
 }
+
